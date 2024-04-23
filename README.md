@@ -6,7 +6,7 @@
 
 
 Fernando Mello
-00000000
+00341727
 Henrique Lindemann
 00343234
 Luca Fritscher
@@ -15,12 +15,12 @@ Luca Fritscher
 Turma B
 
 Valores iniciais ótimos:
-b:
-w:
-alpha:
-num_iterations:
+b: -0.1
+w: 0.8
+alpha: 0.000005
+num_iterations: 100
 
-Melhor erro quadrático médio:
+Melhor erro quadrático médio: 10.55626756503405
 
 Sua análise dos datasets (quantas classes, quantas amostras, qual o tamanho das imagens (altura x largura x canais de cor))
 Suas conclusões considerando as questões do Exercício 2.
