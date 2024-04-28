@@ -13,9 +13,6 @@ Luca Fritscher
 00343044
 
 Turma B
-Professor Joel Luiz Carbonera
-
----Parte 1---
 
 Valores iniciais ótimos:
 b: -0.1
@@ -25,9 +22,9 @@ num_iterations: 100
 
 Melhor erro quadrático médio: 10.55626756503405
 
----Parte 2---
+Parte 2
 
-1. Pelos testes, pode-se afirmar que os datasets MNIST e Fashion MNIST são mais fáceis de se lidar, visto que possuem apenas um canal de cor, e 10 classes. O data set MNIST acaba sendo menos complexo ainda, pois os números possuem um padrão de desenho mais bem definido do que as roupas que o Fashion MNIST apresenta. Agora, em relação ao CIFAR10 e CIFAR100, a complexidade aumenta, levando em conta que são imagens coloridas, três canais de cor, e com padrões menos definidos ainda. CIFAR100 é a mais desafiadora de todas, as 100 classes dificultam muito o trabalho da rede neural, pois além de serem muitas classes, ainda existem muitas similaridades entre algumas delas, como a classe de “mouse” e a de “hamster”.
+1. Pelos testes, pode-se afirmar que os datasets MNIST e Fashion MNIST são mais fáceis de se lidar, visto que possuem apenas um canal de cor, e 10 classes. O data set MNIST acaba sendo menos complexo ainda, pois os números possuem um padrão de desenho mais bem definido do que as roupas que o Fashion MNIST apresenta. Agora, em relação ao CIFAR10 e CIFAR100, a complexidade aumenta, levando em conta que são imagens coloridas, três canais de cor, e com padrões menos definidos ainda. CIFAR100 é a mais desafiadora de todas, as 100 classes dificultam muito o trabalho da rede neural, pois além de serem muitas classes, ainda existe muita similaridade entre algumas delas, como a classe de “mouse” e “hamster”.
 
 2. Em um primeiro momento, utilizando apenas os códigos já fornecidos em labs e no próprio arquivo, obtivemos os seguintes resultados:
 
